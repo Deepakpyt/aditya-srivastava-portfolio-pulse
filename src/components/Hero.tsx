@@ -3,10 +3,13 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import AnimatedSection from "./AnimatedSection";
+import ThreeDBackground from "./3DBackground";
 
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center pt-16 relative overflow-hidden bg-gradient-to-br from-finance-50 to-white">
+      <ThreeDBackground />
+      
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgZmlsbD0iIzIzM2Q2MCIgZmlsbC1vcGFjaXR5PSIwLjAzIj4KICAgICAgICAgICAgPHBhdGggZD0iTTM2IDM0djZoLTZWMzRoLTZ2LTZoNnYtNmg2djZoNnY2aC02eiIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+')] opacity-20"></div>
       
       <div className="container mx-auto px-4 relative z-10">
